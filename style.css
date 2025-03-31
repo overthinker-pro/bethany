@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f8f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+h2 {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  background: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  flex: 1;
+  text-align: left;
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+.header .nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header .nav a:hover {
+  color: #783434;
+}
+
+.homepage {
+  position: relative;
+  background: url("images/church.jpg") no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.homepage .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+#arrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 70px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #f0f0f0, #cacaca);
+  box-shadow: 2px 2px 5px #929292, -2px -2px 5px #ffffff;
+  transition: all 0.6s;
+}
+
+#arrow:hover {
+  box-shadow: 0 0 0;
+  cursor: pointer;
+}
+
+#point {
+  font-size: 2em;
+  align-items: center;
+  color: rgb(5, 5, 5);
+  transition: all 0.6s;
+}
+
+#point:hover {
+  color: rgb(5, 5, 5);
+}
+
+.about,
+.contact,
+.gallery {
+  margin: 50px auto;
+  padding: 40px 20px;
+  max-width: 900px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.gallery-container img {
+  width: 100%;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-container img:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  padding: 15px 30px;
+  background: #783434;
+  color: white;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    background: #ad4a4a;
+  }
+
+  .homepage .overlay {
+    background: none;
+    padding: 10px 20px;
+  }
+
+  .header .nav {
+    display: none;
+  }
+}
