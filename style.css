@@ -1,3 +1,6 @@
+/* Font for Bethany Logo */
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #262626;
+  background-color: #307386;
 }
 
 li {
@@ -28,18 +31,23 @@ a {
   padding: 0 24px;
 }
 
+.nav-branding {
+  font-size: 25px;
+  font-family: "Pirata One", system-ui;
+}
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 60px;
+  gap: 70px;
 }
 
 .nav-link {
   transition: all 0.7s ease-in-out;
 }
 .nav-link:hover {
-  color: dodgerblue;
+  color: #051627;
 }
 
 .hamburger {
@@ -52,6 +60,7 @@ a {
   width: 25px;
   height: 3px;
   margin: 5px auto;
+  border-radius: 60px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
@@ -78,7 +87,7 @@ a {
     top: 70px;
     gap: 0;
     flex-direction: column;
-    background-color: #262626;
+    background-color: #286070;
     width: 100%;
     text-align: center;
     transition: all 0.3s ease;
@@ -92,3 +101,8 @@ a {
     left: 0;
   }
 }
+
+/* //////////////////////// */
+/* / Navbar styling ended / */
+/* //////////////////////// */
+
