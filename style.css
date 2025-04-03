@@ -19,8 +19,8 @@ li {
 }
 
 a {
-  color: white;
   text-decoration: none;
+  color: white;
 }
 
 .navbar {
@@ -32,8 +32,13 @@ a {
 }
 
 .nav-branding {
+  color: white;
   font-size: 25px;
   font-family: "Pirata One", system-ui;
+}
+
+.nav-brand-image {
+  width: 40px;
 }
 
 .nav-menu {
@@ -44,7 +49,7 @@ a {
 }
 
 .nav-link {
-  transition: all 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 .nav-link:hover {
   color: #051627;
@@ -108,3 +113,14 @@ a {
 
 /* /////////////////////// */
 /* //// -- Homepage  //// */
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("images/Bethany_Church.jpg") no-repeat center center;
+  z-index: -1;
+}
+
+.background-image {
+  width: 100%;
+}
