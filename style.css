@@ -107,23 +107,25 @@ a {
   }
 }
 
-/* //////////////////////// */
-/* / Navbar styling ended / */
-/* //////////////////////// */
-
 /* /////////////////////// */
-/* //// -- Homepage  //// */
+/* //// -- Homepage - //// */
+/* /////////////////////// */
 .homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aqua;
+  background-color: #86e1fa60;
 }
 
+/* homepage heading and subheadings */
 .homepage-texts {
   padding: 10px;
-  margin: 20px 0;
-  background-color: grey;
+  margin: 20px;
+}
+
+.homepage-heading {
+  font-size: 35px;
+  font-weight: 600;
 }
 
 .homepage-image {
@@ -132,4 +134,19 @@ a {
 
 .church-image {
   width: 100%;
+}
+
+@media (min-width: 900px) {
+  .homepage {
+    padding:30px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .homepage-texts {
+    flex: 1;
+  }
+  .homepage-image {
+    flex: 1;
+  }
 }
