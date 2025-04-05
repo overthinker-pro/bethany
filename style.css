@@ -136,6 +136,11 @@ a {
   color: #05213c;
 }
 
+.homepage-subtitle span{
+  font-family: "Pirata One", system-ui;
+  letter-spacing: 1.5px;
+}
+
 .homepage-image {
   margin: 0 20px;
   display: flex;
