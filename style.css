@@ -34,6 +34,7 @@ a {
 .nav-branding {
   color: white;
   font-size: 25px;
+  margin: 25px;
   font-family: "Pirata One", system-ui;
 }
 
@@ -43,9 +44,9 @@ a {
 
 .nav-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  gap: 70px;
+  gap: 60px;
 }
 
 .nav-link {
