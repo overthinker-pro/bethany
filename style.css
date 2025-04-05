@@ -159,15 +159,16 @@ a {
 @media (min-width: 900px) {
   .homepage-contents {
     padding:30px 0;
-    margin: 50px 0;
+    margin: 50px 30px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     gap: 30px;
   }
   .homepage-texts {
     margin: 0;
     flex: 1;
+    text-align: left;
     background-color: antiquewhite;
   }
 
