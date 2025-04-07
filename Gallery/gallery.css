@@ -126,12 +126,20 @@ a {
   margin: 10px 0 0 0;
 }
 
+/* Gallery contents */
+.gallery-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
   max-width: 1400px;
-  margin: 40px auto;
+  margin: 40px 10px;
 }
 
 .gallery-item {
@@ -149,7 +157,7 @@ a {
 
 .gallery-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   object-fit: cover;
   transition: transform 0.3s ease;
