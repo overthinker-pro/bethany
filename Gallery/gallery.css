@@ -167,7 +167,7 @@ a {
   transform: scale(1.03);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
   }
