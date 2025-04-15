@@ -19,7 +19,7 @@ li {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #f4f4f4;
 }
 
 .navbar {
@@ -31,7 +31,7 @@ a {
 }
 
 .nav-branding {
-  color: white;
+  color: #f4f4f4;
   font-size: 25px;
   font-family: "Pirata One", system-ui;
 }
@@ -67,7 +67,7 @@ a {
   border-radius: 60px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: white;
+  background-color: #f4f4f4;
 }
 
 @media (max-width: 768px) {
