@@ -1069,18 +1069,6 @@ input::-moz-focus-inner {
   content: counter(definitions, decimal) ". ";
 }
 
-/** 
- * Pull Quotes
- * -----------
- * markup:
- *
- * <aside class="pull-quote">
- *    <blockquote>
- *      <p></p>
- *    </blockquote>
- *  </aside>
- *
- * --------------------------------------------------------------------- */
 .pull-quote {
   position: relative;
   padding: 2.4rem 0;
@@ -1108,18 +1096,6 @@ input::-moz-focus-inner {
   left: 4rem;
 }
 
-/** 
- * Stats Tab
- * ---------
- * markup:
- *
- * <ul class="stats-tabs">
- *    <li><a href="#">[value]<em>[name]</em></a></li>
- *  </ul>
- *
- * Extend this object into your markup.
- *
- * --------------------------------------------------------------------- */
 .stats-tabs {
   padding: 0;
   margin: 3.2rem 0;
@@ -1743,7 +1719,7 @@ input::-moz-focus-inner {
   height: 1px;
   width: 9rem;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: -11rem;
 }
 
@@ -1755,8 +1731,8 @@ input::-moz-focus-inner {
 }
 
 .header-logo img {
-  width: 108px;
-  height: 28px;
+  width: 100px;
+  height: auto;
 }
 
 /* -------------------------------------------------------------------
