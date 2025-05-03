@@ -3034,8 +3034,8 @@ html.no-csstransitions .hero-content {
 }
 
 .footer-logo img {
-  width: 138px;
-  height: 36px;
+  width: 100px;
+  height: auto;
 }
 
 /* -------------------------------------------------------------------
@@ -3236,7 +3236,7 @@ html.no-csstransitions .hero-content {
 }
 
 .page-header--about {
-  background-image: url(../images/header-bgs/about-header-bg-2000.jpg);
+  background-image: url(../images/header-bgs/group.jpg);
 }
 
 .page-header--contact {
@@ -3245,14 +3245,6 @@ html.no-csstransitions .hero-content {
 
 .page-header--events {
   background-image: url(../images/header-bgs/events-header-bg-2000.jpg);
-}
-
-.page-header--connect {
-  background-image: url(../images/header-bgs/connect-header-bg-2000.jpg);
-}
-
-.page-header--volunteer {
-  background-image: url(../images/header-bgs/volunteer-header-bg-2000.jpg);
 }
 
 .page-header__content {
