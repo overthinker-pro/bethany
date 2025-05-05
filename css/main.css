@@ -2841,13 +2841,14 @@ html.no-csstransitions .hero-content {
 /* ////////Gallery page/////// */
 .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
   padding: 2rem 0;
   margin: 0 15px;
 }
 
 .gallery-card {
+  width: 100%;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
@@ -2876,6 +2877,12 @@ html.no-csstransitions .hero-content {
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 }
 
