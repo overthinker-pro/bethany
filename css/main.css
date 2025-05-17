@@ -2852,7 +2852,7 @@ html.no-csstransitions .hero-content {
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   text-align: center;
   transition: transform 0.2s ease;
 }
@@ -2876,7 +2876,24 @@ html.no-csstransitions .hero-content {
 
 @media (max-width: 768px) {
   .gallery {
-    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 90vw;
+    max-width: 90vw;
+    margin: 0 auto;
+    padding: 0;
+    gap: 1rem;
+  }
+
+  .gallery-card {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery-card img {
+    width: 100%;
+    height: auto;
+    display: block;
   }
 }
 
@@ -3310,7 +3327,6 @@ html.no-csstransitions .hero-content {
 .page-content .row {
   max-width: 1080px;
 }
-
 
 /* event content
  * ----------------------------------------------- */
