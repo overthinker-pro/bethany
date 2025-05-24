@@ -93,8 +93,17 @@
           </h1>
 
           <div class="hero-content__buttons">
-            <a href="events.html" class="btn btn--stroke">Upcoming Events</a>
-            <a href="https://online.fliphtml5.com/ldyke/gewb/#p=1" class="btn btn--stroke" target="_blank">read our magazine</a>
+            <a
+              onclick="event.preventDefault(); document.getElementById('event-section').scrollIntoView({ behavior: 'smooth' });"
+              class="btn btn--stroke"
+              >Upcoming Events</a
+            >
+            <a
+              href="https://online.fliphtml5.com/ldyke/gewb/#p=1"
+              class="btn btn--stroke"
+              target="_blank"
+              >read our magazine</a
+            >
           </div>
         </div>
         <!-- end hero-content__text -->
@@ -192,9 +201,7 @@
             <!-- add event description here -->
           </p>
           <ul class="events-list__meta">
-            <li class="events-list__meta-date">
-              ---
-            </li>
+            <li class="events-list__meta-date">---</li>
             <li class="events-list__meta-time">---</li>
           </ul>
         </div>
@@ -226,7 +233,7 @@
 
     <!-- Social
     ================================================== -->
-    <section class="s-social">
+    <section class="s-social" id="event-section">
       <div class="row social-content">
         <div class="column">
           <ul class="social-list">
@@ -304,7 +311,7 @@
 
       <div class="row footer-bottom">
         <div class="column ss-copyright">
-          <span>© Copyright NVA 2025</span>
+          <span>© Copyright Bethany 2025</span>
           <span
             >Design by
             <a href="https://pc-nva-pf.netlify.app/" target="_blank"

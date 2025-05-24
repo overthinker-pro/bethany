@@ -28,6 +28,7 @@ html {
 
 html,
 body {
+  scroll-behavior: smooth;
   height: 100%;
 }
 
@@ -2662,7 +2663,6 @@ html.no-csstransitions .hero-content {
     display: block;
   }
 }
-
 
 @media (min-width: 1024px) {
   .gallery {
