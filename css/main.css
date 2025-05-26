@@ -2607,6 +2607,7 @@ html.no-csstransitions .hero-content {
 
 /* ////////Gallery page/////// */
 .gallery {
+  max-width: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1rem;
@@ -2616,12 +2617,13 @@ html.no-csstransitions .hero-content {
 
 .gallery-card {
   width: 100%;
+  max-height: 400px;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   text-align: center;
-  transition: transform 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .gallery-card:hover {
@@ -2630,9 +2632,12 @@ html.no-csstransitions .hero-content {
 
 .gallery-card img {
   width: 100%;
-  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
   display: block;
+  border-radius: 0;
 }
+
 
 .gallery-card p {
   margin: 0;
@@ -2647,7 +2652,7 @@ html.no-csstransitions .hero-content {
     width: 100%;
     max-width: 100%;
     margin: 0;
-    padding: 0 1rem; /* Adds space on the sides */
+    padding: 0 1rem;
     gap: 1rem;
   }
 
@@ -2666,7 +2671,7 @@ html.no-csstransitions .hero-content {
 
 @media (min-width: 1024px) {
   .gallery {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
 
