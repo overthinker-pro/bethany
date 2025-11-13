@@ -1588,6 +1588,12 @@ input::-moz-focus-inner {
   width: 2.6rem;
 }
 
+#subhead {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Dancing Script", cursive;
+}
+
 /* ------------------------------------------------------------------- 
  * ## block list
  * ------------------------------------------------------------------- */
