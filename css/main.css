@@ -3207,4 +3207,8 @@ html.no-csstransitions .hero-content {
   }
 }
 
-/*# sourceMappingURL=main.css.map */
+
+/* season of nativity description */
+#sonabdesc {
+  text-align: justify;
+}
